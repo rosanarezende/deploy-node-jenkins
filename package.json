@@ -1,0 +1,23 @@
+{
+  "name": "deploy-node-jenkins",
+  "version": "1.0.0",
+  "description": "Projeto criado na revisão sobre deploy automatizado com Jankins",
+  "main": "app.js",
+  "scripts": {
+    "start": "nodemon --inspect=0.0.0.0 ./app.js",
+    "start:prod": "node ./app.js",
+    "test": "jest"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "unique-names-generator": "^4.6.0"
+  },
+  "devDependencies": {
+    "jest": "^27.0.6",
+    "nodemon": "^2.0.9",
+    "supertest": "^6.1.3"
+  }
+}
